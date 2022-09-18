@@ -1,11 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - print text
- * Return: 0 if exited properly, non-zero otherwise
+ *
+ * Description: main - Prints out a string to stdout.
+ * Return: 0 if success.
  */
- 	int main(void)
+
+int main(void)
+
 {
+
 	puts("\"Programming is like building a multilingual puzzle");
-	
+
 	return (0);
+
 }
