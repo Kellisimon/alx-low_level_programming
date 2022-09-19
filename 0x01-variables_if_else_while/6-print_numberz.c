@@ -8,25 +8,24 @@
  */
 
 
-
 int main(void)
 
 {
 
-	int n = 48;
+		int num;
 
-	while (n <= 57)
 
-	{
 
-		putchar(n);
+			for (num = 0; num < 10; num++)
 
-		n += 1;
+						putchar((num % 10) + '0');
 
-	}
 
-	printf("\n");
 
-	return (0);
+				putchar('\n');
+
+
+
+					return (0);
 
 }
