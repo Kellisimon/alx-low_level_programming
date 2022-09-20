@@ -6,27 +6,14 @@
  * Return: string
  */
 
-int _strlen(char *s)
+void _puts(char *str);
 {
 	int i = 0;
 
-	while (*(s + i) != '\0')
+	while (*(str + i) != '\o')
 	{
+		putchar(*(str + i));
 		i++;
 	}
-
-	return (i);
-}
-
-void _puts(char *str)
-{
-	int i = 0, strln = 0;
-
-	strln = _strlen(str);
-	for ( ; i <= (strln - 1); i++)
-	{
-		_putchar(*(str + i));
-	}
-
-	_putchar('\n');
+	putchar(10);
 }
